@@ -1,0 +1,99 @@
+.text-primary {
+    color: #2b2a60;
+    fill: #2b2a60;
+}
+
+.bg-primary {
+    background-color: #2b2a60;
+}
+
+.border-primary {
+    border-color: #2b2a60;
+}
+
+.bg-tan {
+    background-color: #ede2d8;
+}
+
+.border-tan {
+    border-color: #ede2d8;
+}
+
+.text-secondary {
+    color: #f26c36;
+}
+
+.border-secondary {
+    border-color: #f26c36;
+}
+
+.hover\:border-secondary:hover {
+    border-color: #f26c36;
+}
+
+.bg-secondary {
+    background-color: #f26c36;
+}
+
+.hover\:bg-secondary:hover {
+    background-color: #f26c36;
+}
+
+@font-face {
+    font-family: Comorant;
+    src: url("/fonts/CormorantSC-Light.ttf") format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Comorant;
+    src: url("/fonts/CormorantSC-Regular.ttf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Comorant;
+    src: url("/fonts/CormorantSC-Medium.ttf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Comorant;
+    src: url("/fonts/CormorantSC-SemiBold.ttf") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Comorant;
+    src: url("/fonts/CormorantSC-Bold.ttf") format("opentype");
+    font-weight: 700;
+}
+
+.font-serif {
+    font-family: 'Comorant', serif;
+}
+
+@font-face {
+    font-family: AmsterdamFour;
+    src: url("/fonts/AmsterdamFour-Regular.ttf") format("opentype");
+    font-weight: 400;
+}
+
+.font-curly {
+    font-family: 'AmsterdamFour', sans-serif;
+}
+
+a {
+    font-weight: 500;
+}
+
+a:hover {
+    color: #f26c36;
+}
+
+.timeline-deco:not(.hidden):nth-last-child(2) > .timeline-line {
+    display: none;
+}
+.timeline-deco:not(.hidden):nth-last-child(2) > .timeline-orb {
+    margin-left: 0;
+}

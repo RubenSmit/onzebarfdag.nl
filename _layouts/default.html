@@ -1,0 +1,84 @@
+<!-- Hoi! Leuk dat je hier kijkt. Niks te vinden hier, maar misschien wel op andere plekken. -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="author" content="Ruben Smit">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="text-primary font-serif bg-tan">
+<nav class="flex justify-center p-2">
+  <div class="flex flex-col md:flex-row w-full md:w-auto border-b-2 border-primary text-xl font-semibold md:space-x-4">
+    <div class="w-full md:w-auto flex justify-between items-center">
+      <a href="/" class="p-2 hover:font-bold">Thuis</a>
+      <button class="md:hidden px-2 py-1 text-primary" onclick="toggleMenu(this)">
+        <span class="" data-menu="open">
+          <img src="/images/hamburger_icon.svg" alt="Open menu">
+        </span>
+        <span class="hidden" data-menu="close">
+          <img src="/images/x_icon.svg" alt="Sluit menu">
+        </span>
+      </button>
+    </div>
+    <a href="/programma" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma</a>
+    <a href="/details" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Details</a>
+    <a href="/help_mee" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Help mee</a>
+    <a href="/vraag_en_antwoord" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Vraag & Antwoord</a>
+    <a href="/rsvp" class="hidden md:inline p-2 hover:font-bold text-secondary" data-menu="item">RSVP</a>
+  </div>
+  </div>
+</nav>
+<article>
+  {{ content }}
+</article>
+<footer class="text-center p-5 mt-20">
+  © Ruben Smit 2024
+</footer>
+</body>
+<script>
+  function toggleMenu(element) {
+    document.querySelectorAll('[data-menu="item"]').forEach(item => {
+      item.classList.toggle('hidden')
+    })
+    element.querySelector('[data-menu="open"]').classList.toggle('hidden')
+    element.querySelector('[data-menu="close"]').classList.toggle('hidden')
+  }
+
+  function changeProgram(program) {
+    document.querySelectorAll('[data-timeline="alles"]').forEach(item => {
+      hideItem(item, program != 'alles');
+    })
+    document.querySelectorAll('[data-timeline="dag"]').forEach(item => {
+      hideItem(item, program == 'kerk');
+    })
+    selectButton(document.querySelector('[data-timeline-button="alles"]'), program == 'alles');
+    selectButton(document.querySelector('[data-timeline-button="dag"]'), program == 'dag');
+    selectButton(document.querySelector('[data-timeline-button="kerk"]'), program == 'kerk');
+  }
+
+  function hideItem(item, hide) {
+    if (hide) {
+      item.classList.add('hidden');
+    } else {
+      item.classList.remove('hidden');
+    }
+  }
+
+  function selectButton(item, select) {
+    if (select) {
+      item.classList.remove('border-primary', 'text-primary');
+      item.classList.add('border-secondary', 'bg-secondary', 'text-white');
+    } else {
+      item.classList.remove('border-secondary', 'bg-secondary', 'text-white');
+      item.classList.add('border-primary', 'text-primary');
+    }
+  }
+</script>
+</html>
