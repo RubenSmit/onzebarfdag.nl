@@ -40,47 +40,22 @@
 }
 
 @font-face {
-    font-family: Comorant;
-    src: url("/fonts/CormorantSC-Light.ttf") format("opentype");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: Comorant;
-    src: url("/fonts/CormorantSC-Regular.ttf") format("opentype");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: Comorant;
-    src: url("/fonts/CormorantSC-Medium.ttf") format("opentype");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: Comorant;
-    src: url("/fonts/CormorantSC-SemiBold.ttf") format("opentype");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: Comorant;
-    src: url("/fonts/CormorantSC-Bold.ttf") format("opentype");
-    font-weight: 700;
+    font-family: CrimsonPro;
+    src: url("/fonts/CrimsonPro-VariableFont_wght.ttf") format("opentype");
 }
 
 .font-serif {
-    font-family: 'Comorant', serif;
+    font-family: 'CrimsonPro', serif;
 }
 
 @font-face {
-    font-family: AmsterdamFour;
-    src: url("/fonts/AmsterdamFour-Regular.ttf") format("opentype");
+    font-family: AlexBrush;
+    src: url("/fonts/AlexBrush-Regular.ttf") format("opentype");
     font-weight: 400;
 }
 
 .font-curly {
-    font-family: 'AmsterdamFour', sans-serif;
+    font-family: 'AlexBrush', sans-serif;
 }
 
 a {
