@@ -11,6 +11,11 @@
     border-color: #ba865f;
 }
 
+.text-primary-700 {
+    color: #bf702a;
+    fill: #bf702a;
+}
+
 .bg-tan {
     background-color: #ede2d8;
 }
