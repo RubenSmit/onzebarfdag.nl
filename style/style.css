@@ -17,11 +17,11 @@
 }
 
 .bg-tan {
-    background-color: #ede2d8;
+    background-color: #fcf9f4;
 }
 
 .border-tan {
-    border-color: #ede2d8;
+    border-color: #fcf9f4;
 }
 
 .text-secondary {
@@ -76,4 +76,12 @@ a:hover {
 }
 .timeline-deco:not(.hidden):nth-last-child(2) > .timeline-orb {
     margin-left: 0;
+}
+
+.h-200 {
+    height: 50rem;
+}
+
+.-mb-120 {
+    margin-bottom: -30rem;
 }

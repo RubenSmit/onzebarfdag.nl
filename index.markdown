@@ -1,7 +1,7 @@
 ---
 title: Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
 description: Wij gaan trouwen en nodigen je graag uit om dat met ons te vieren.
-layout: default
+layout: home
 ---
 
 {% include hero.html %}

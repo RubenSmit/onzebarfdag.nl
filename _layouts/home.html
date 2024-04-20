@@ -14,29 +14,14 @@
   <link rel="stylesheet" href="/style/style.css">
 </head>
 <body class="text-primary font-serif bg-white">
-<nav class="flex justify-center items-center flex-col p-8 bg-tan">
-  <div class="font-curly text-4xl">Jeanine & Ruben</div>
-  <div class="flex flex-col md:flex-row w-full md:w-auto text-xl font-semibold md:space-x-4">
-    <div class="w-full md:w-auto flex justify-between items-center">
-      <a href="/" class="p-2 hover:font-bold">Start</a>
-      <button class="md:hidden px-2 py-1 text-primary" onclick="toggleMenu(this)">
-        <span class="" data-menu="open">
-          <img src="/images/hamburger_icon.svg" class="text-primary" alt="Open menu">
-        </span>
-        <span class="hidden" data-menu="close">
-          <img src="/images/x_icon.svg" class="text-primary" alt="Sluit menu">
-        </span>
-      </button>
-    </div>
-    <a href="/programma" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma</a>
-    <a href="/details" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Details</a>
-    <a href="/help_mee" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Help mee</a>
-    <a href="/vraag_en_antwoord" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Vraag & Antwoord</a>
-    <a href="/rsvp" class="hidden md:inline p-2 hover:font-bold text-secondary" data-menu="item">RSVP</a>
-  </div>
-  </div>
+<nav class="sr-only">
+  <a href="/" class="p-2 hover:font-bold">Start</a>
+  <a href="/programma" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma</a>
+  <a href="/details" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Details</a>
+  <a href="/help_mee" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Help mee</a>
+  <a href="/vraag_en_antwoord" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Vraag & Antwoord</a>
+  <a href="/rsvp" class="hidden md:inline p-2 hover:font-bold text-secondary" data-menu="item">RSVP</a>
 </nav>
-<img src="/images/backdrop.jpg" class="h-200 w-full object-cover blur-md -mb-120">
 <article>
   {{ content }}
 </article>
