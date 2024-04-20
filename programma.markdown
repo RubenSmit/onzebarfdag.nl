@@ -1,17 +1,12 @@
 ---
-title: Programma · Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
-description: Drie dagen? Wat gaan jullie doen dan? Het complete programma vind je hier
+title: Programma en Locatie · Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
+description: Drie dagen? Wat gaan jullie doen dan? Het complete programma vind je hier.
 layout: default
 ---
 
 {% capture card_content %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper, risus non auctor vestibulum, felis orci euismod
-risus, id viverra tortor felis et lorem. Nunc nec est lorem. Pellentesque suscipit ligula quam, et ornare dui
-consectetur eu. Duis lacinia dolor magna, id scelerisque libero fringilla at. Pellentesque sem odio, facilisis
-consectetur quam ac, fermentum eleifend lacus. Nam vel sollicitudin nisi, efficitur congue libero. Integer libero
-lectus, cursus eget purus id, finibus consequat purus. Nulla blandit maximus tortor, sed ultrices purus pretium vitae.
-Phasellus at aliquet leo. Sed sed mauris bibendum, molestie magna id, accumsan urna. Aenean pulvinar leo et nisl tempor,
-faucibus condimentum nunc auctor. Cras rhoncus faucibus augue, non vulputate arcu laoreet eu. 
+## Programma
+Ben je uitgenodigd voor de woensdag, woensdag-donderdag of dinsdag-donderdag? Klik het dan hieronder aan zodat je de juiste programma-onderdelen ziet.
 
 <div class="w-full mt-6 text-center">Bekijk het programma voor:</div>
 <div class="w-full mt-2 flex justify-center">
@@ -53,6 +48,12 @@ faucibus condimentum nunc auctor. Cras rhoncus faucibus augue, non vulputate arc
 {% endcapture %}
 {% include timeline.html items=donderdag_items type="dag" %}
 
+## Locatie
+*De Eik, Coevorderweg 39, Slagharen*
+
+Onze hele bruiloft zal plaatsvinden op De Eik in Slagharen, een voormalige kloosterschool dat omgebouwd is naar een schitterende trouwlocatie.
+
+De Eik heeft een keuken, eet-/feestzaal, woonkamer, spelletjesruimte en 20 slaapkamers. Buiten bevinden zich een terras en een prachtige voortuin waar de kerkdienst gehouden zal worden. Bij slecht weer, zal de kerkdienst plaatsvinden in de kerkzaal van het naastgelegen verzorgingshuis.
 {% endcapture %}
 
-{% include card.html title="Programma" content=card_content %}
+{% include card.html title="Programma en Locatie" content=card_content %}
