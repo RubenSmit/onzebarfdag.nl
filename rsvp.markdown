@@ -1,14 +1,18 @@
 ---
-title: Details · Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
-description: Meer informatie over de overnachtingsmogelijkheden en andere details van de bruiloft.
+title: Aanmelden · Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
+description: Laat ons weten of je komt! Weet je het nog niet zeker, vul het dan alsnog in. later aanpassen kan. 
 layout: default
 ---
 
 {% capture rsvp_content %}
+Wil je uiterlijk voor 30 juni laten weten of je komt?
+Dat kan in het onderstaande formulier.
+Na invullen en verzenden, kun je later eventueel nog wijzigen. Dus vul het gelijk vast in.
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJciZEmOIIzU5rrdxyp8Yq3-vXqRBaqcUDbWnot4n35-qBfA/viewform?embedded=true" width="100%" height="1060" frameborder="0" marginheight="0" marginwidth="0">
 Het formulier wordt geladen…</iframe>
 {% endcapture %}
-{% include card.html title="Rsvp" content=rsvp_content %}
+{% include card.html title="Aanmelden" content=rsvp_content %}
 
 {% capture ceremoniemeesters_content %}
 <div class="w-full flex mb-4">
