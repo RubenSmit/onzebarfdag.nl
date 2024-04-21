@@ -82,6 +82,9 @@ a:hover {
 .h-160 {
     height: 40rem;
 }
+.h-screen-1\/2 {
+    height: 0.5vh;
+}
 
 article {
     font-family: 'CrimsonPro', sans-serif;

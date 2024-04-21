@@ -16,20 +16,22 @@
 </head>
 <body class="text-primary font-serif bg-white">
 <nav class="flex justify-center items-center flex-col p-8 bg-tan">
-  <a href="/" class="font-curly text-4xl mb-2">Jeanine & Ruben</a>
-  <div class="flex flex-col md:flex-row w-full md:w-auto text-xl font-semibold md:space-x-4">
-    <div class="w-full md:w-auto flex justify-between items-center">
-      <button class="md:hidden px-2 py-1 text-primary" onclick="toggleMenu(this)">
+  <div class="w-full flex justify-between md:justify-center mb-2">
+    <a href="/" class="font-curly text-4xl">Jeanine & Ruben <span class="sr-only">(terug naar start)</span></a>
+    <button class="md:hidden px-2 py-1 text-primary" onclick="toggleMenu(this)">
         <span class="" data-menu="open">
           <img src="/images/hamburger_icon.svg" class="text-primary" alt="Open menu">
         </span>
-        <span class="hidden" data-menu="close">
+      <span class="hidden" data-menu="close">
           <img src="/images/x_icon.svg" class="text-primary" alt="Sluit menu">
         </span>
-      </button>
-    </div>
-    <a href="/programma_en_locatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma & Locatie</a>
-    <a href="/praktische_informatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Praktische informatie</a>
+    </button>
+  </div>
+  <div class="flex flex-col md:flex-row w-full md:w-auto text-xl font-semibold md:space-x-4">
+    <a href="/programma_en_locatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma &
+      Locatie</a>
+    <a href="/praktische_informatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Praktische
+      informatie</a>
     <a href="/help_mee" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Help mee</a>
     <a href="/cadeautips" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Cadeautips</a>
     <a href="/vraag_en_antwoord" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Vraag & Antwoord</a>

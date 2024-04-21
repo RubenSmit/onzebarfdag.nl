@@ -16,16 +16,55 @@
 </head>
 <body class="text-primary font-serif bg-white">
 <nav class="sr-only">
-  <a href="/" class="p-2 hover:font-bold">Start</a>
-  <a href="/programma" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma</a>
-  <a href="/details" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Details</a>
+  <a href="/programma_en_locatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Programma &
+    Locatie</a>
+  <a href="/praktische_informatie" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Praktische
+    informatie</a>
   <a href="/help_mee" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Help mee</a>
+  <a href="/cadeautips" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Cadeautips</a>
   <a href="/vraag_en_antwoord" class="hidden md:inline p-2 hover:font-bold" data-menu="item">Vraag & Antwoord</a>
-  <a href="/rsvp" class="hidden md:inline p-2 hover:font-bold text-secondary" data-menu="item">RSVP</a>
+  <a href="/aanmelden" class="hidden md:inline p-2 hover:font-bold text-secondary" data-menu="item">Aanmelden</a>
 </nav>
-<article>
-  {{ content }}
-</article>
+<header style="background-image: url('/images/backdrop.jpg');" class="h-96 md:h-screen w-full bg-center bg-cover">
+  <h1 class="font-curly text-9xl">
+    Jeanine & Ruben
+  </h1>
+  <p class="text-5xl">27-29 augustus 2024</p>
+</header>
+<menu class="mx-auto max-w-screen-xl -mt-20">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <a href="/programma_en_locatie" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Programma & Locatie</h2>
+      <p class="text-lg"></p>
+    </a>
+    <a href="/praktische_informatie" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Praktische informatie</h2>
+      <p class="text-lg">Over parkeren, overnachten, de paklijst, dresscode, stukjes en meer</p>
+    </a>
+    <a href="/aanmelden" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Aanmelden</h2>
+      <p class="text-lg">Hier kun je je aanmelden zodat we genoeg stoelen en taart hebben.</p>
+    </a>
+    <a href="/help_mee" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Help mee</h2>
+      <p class="text-lg">Wil je helpen door iets mee te nemen of klaar te zetten?</p>
+    </a>
+    <a href="/cadeautips" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Cadeautips</h2>
+      <p class="text-lg">Gewoon wat inspiratie</p>
+    </a>
+    <a href="/vraag_en_antwoord" class="bg-tan p-8">
+      <h2 class="text-2xl mb-2">Vraag & Antwoord</h2>
+      <p class="text-lg">Want waarom doen we nou eigenlijk drie dagen? En wanneer draagt Jeanine haar jurk?</p>
+    </a>
+  </div>
+</menu>
+<main class="mx-auto max-w-screen-lg mt-20">
+  <h2 class="font-curly w-full text-8xl text-center mb-10">Wij gaan trouwen!</h2>
+  <article class="bg-tan p-4 md:p-20 min-h-60 markdown-body">
+    {{ content }}
+  </article>
+</main>
 <footer class="text-center p-5 mt-20">
   © Ruben Smit 2024
 </footer>
