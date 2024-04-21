@@ -6,7 +6,7 @@ layout: home
 
 {% include hero.html %}
 
-{% capture card_content %}
+# Wij gaan trouwen
 <div class="font-bold text-2xl text-center">En dat willen wij graag met jullie vieren</div>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper, risus non auctor vestibulum, felis orci euismod
 risus, id viverra tortor felis et lorem. Nunc nec est lorem. Pellentesque suscipit ligula quam, et ornare dui
@@ -16,7 +16,7 @@ lectus, cursus eget purus id, finibus consequat purus. Nulla blandit maximus tor
 Phasellus at aliquet leo. Sed sed mauris bibendum, molestie magna id, accumsan urna. Aenean pulvinar leo et nisl tempor,
 faucibus condimentum nunc auctor. Cras rhoncus faucibus augue, non vulputate arcu laoreet eu.
 
-{% include card_title.html title="Meer informatie" %}
+## Meer informatie
 We kunnen ons voorstellen dat je vragen hebt of meer details wilt weten. Op deze website is daar als het goed is een
 antwoord op te vinden. Mocht je nu toch nog iets missen, neem dan vooral contact op met de ceremoniemeesters. We hebben
 hieronder een aantal snelle links naar de verschillende onderdelen van de website geplaatst.
@@ -31,5 +31,3 @@ hieronder een aantal snelle links naar de verschillende onderdelen van de websit
 {% include link.html title="RSVP" path="/rsvp" %}
 {% include link.html title="Ceremoniemeesters" path="/rsvp#ceremoniemeesters" %}
 
-{% endcapture %}
-{% include card.html title="Wij gaan trouwen" content=card_content %}

@@ -1,9 +1,8 @@
 ---
-title: Help mee · Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
+title: Help mee
 description: We hebben veel spullen en handjes nodig om de bruiloft mogelijk te maken. Misschien kun je ons daar bij helpen.
 layout: default
 ---
-{% capture help_mee_content %}
 ## Handjes
 Voor, tijdens en na de bruiloft hebben we af en toe wat helpende handjes nodig. Maar... je mag alleen meehelpen als je het leuk vindt om mee te helpen en het niet als stressvol gaat ervaren. Want bovenal willen we dat we met z'n allen fijne dagen hebben.
 
@@ -56,5 +55,3 @@ Maar de volgende spullen gaan we ergens huren als we ze niet kunnen lenen van vr
 
 **Categorie: dit wil je gewoon hebben op je bruiloft**
 - Gong
-{% endcapture %}
-{% include card.html title="Help mee" content=help_mee_content %}

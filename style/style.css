@@ -50,7 +50,7 @@
 }
 
 .font-serif {
-    font-family: 'CrimsonPro', serif;
+    font-family: 'CrimsonPro', sans-serif;
 }
 
 @font-face {
@@ -60,7 +60,7 @@
 }
 
 .font-curly {
-    font-family: 'AlexBrush', sans-serif;
+    font-family: 'AlexBrush', serif;
 }
 
 a {
@@ -74,14 +74,15 @@ a:hover {
 .timeline-deco:not(.hidden):nth-last-child(2) > .timeline-line {
     display: none;
 }
+
 .timeline-deco:not(.hidden):nth-last-child(2) > .timeline-orb {
     margin-left: 0;
 }
 
-.h-200 {
-    height: 50rem;
+.h-160 {
+    height: 40rem;
 }
 
-.-mb-120 {
-    margin-bottom: -30rem;
+article {
+    font-family: 'CrimsonPro', sans-serif;
 }
