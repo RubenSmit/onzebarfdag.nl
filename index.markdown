@@ -3,14 +3,9 @@ title: Bruiloft Jeanine en Ruben · 27-29 | 08 | 2024
 description: Wij gaan trouwen en nodigen je graag uit om dat met ons te vieren.
 layout: home
 ---
-## En dat willen wij graag met jullie vieren
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper, risus non auctor vestibulum, felis orci euismod
-risus, id viverra tortor felis et lorem. Nunc nec est lorem. Pellentesque suscipit ligula quam, et ornare dui
-consectetur eu. Duis lacinia dolor magna, id scelerisque libero fringilla at. Pellentesque sem odio, facilisis
-consectetur quam ac, fermentum eleifend lacus. Nam vel sollicitudin nisi, efficitur congue libero. Integer libero
-lectus, cursus eget purus id, finibus consequat purus. Nulla blandit maximus tortor, sed ultrices purus pretium vitae.
-Phasellus at aliquet leo. Sed sed mauris bibendum, molestie magna id, accumsan urna. Aenean pulvinar leo et nisl tempor,
-faucibus condimentum nunc auctor. Cras rhoncus faucibus augue, non vulputate arcu laoreet eu.
+En dit feest vieren we graag met jou erbij! Daarom willen we je van harte uitnodigen voor onze bruiloft!
+
+Kom je ook? Laat het ons weten door het [aanmeldformulier](/aanmelden) in te vullen. Ook als je er niet bij kunt zijn, horen we dat graag. Hopelijk tot de bruiloft!
 
 ## Meer informatie
 We kunnen ons voorstellen dat je vragen hebt of meer details wilt weten. Op deze website is daar als het goed is een
