@@ -39,10 +39,10 @@
   </div>
   </div>
 </nav>
-<div style="background-image: url('/images/backdrop.jpg');" class="h-160 w-full bg-center bg-cover"></div>
-<main class="mx-auto max-w-screen-lg -mt-96">
-  <h1 class="font-curly w-full text-8xl text-center mb-10">{{ page.title }}</h1>
-  <article class="bg-tan p-4 md:p-20 min-h-60 markdown-body">
+<div style="background-image: url('/images/backdrop.jpg');" class="h-40 md:h-160 w-full bg-center bg-cover"></div>
+<main class="mx-auto max-w-screen-lg -mt-24 md:-mt-96">
+  <h1 class="font-curly w-full text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-center mb-10">{{ page.title }}</h1>
+  <article class="bg-tan px-4 pt-8 pb-10 md:p-20 min-h-60 markdown-body">
     {{ content }}
   </article>
 </main>
@@ -64,7 +64,10 @@
       hideItem(item, program != 'alles');
     })
     document.querySelectorAll('[data-timeline="dag"]').forEach(item => {
-      hideItem(item, program == 'kerk');
+      hideItem(item, program != 'dag');
+    })
+    document.querySelectorAll('[data-timeline="kerk"]').forEach(item => {
+      hideItem(item, program != 'kerk');
     })
     selectButton(document.querySelector('[data-timeline-button="alles"]'), program == 'alles');
     selectButton(document.querySelector('[data-timeline-button="dag"]'), program == 'dag');
