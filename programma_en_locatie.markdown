@@ -6,7 +6,7 @@ layout: default
 ## Programma
 Ben je uitgenodigd voor de woensdag, woensdag-donderdag of dinsdag-donderdag? Klik het dan hieronder aan zodat je de juiste programma-onderdelen ziet.
 
-{% include timeline_alt.html %}
+{% include timeline.html %}
 
 ## Locatie
 *De Eik, Coevorderweg 39, Slagharen*
