@@ -44,6 +44,13 @@
     background-color: #f26c36;
 }
 
+.text-bronze {
+    background: -webkit-linear-gradient(#ca7345, #732100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px 6px #222);
+}
+
 @font-face {
     font-family: CrimsonPro;
     src: url("/fonts/CrimsonPro-VariableFont_wght.ttf") format("opentype");
@@ -71,8 +78,8 @@ a:hover {
     color: #f26c36;
 }
 
-.h-160 {
-    height: 40rem;
+.h-120 {
+    height: 30rem;
 }
 
 .h-screen-1\/2 {
@@ -83,6 +90,10 @@ article {
     font-family: 'CrimsonPro', sans-serif;
 }
 
+.bg-pos-custom {
+    background-position: 50% 60%;
+}
+
 /* lg */
 @media (min-width: 1024px) {
 
@@ -90,8 +101,8 @@ article {
 
 /* md */
 @media (min-width: 768px) {
-    .md\:h-160 {
-        height: 40rem;
+    .md\:h-120 {
+        height: 30rem;
     }
 }
 
