@@ -71,21 +71,31 @@ a:hover {
     color: #f26c36;
 }
 
-.timeline-deco:not(.hidden):nth-last-child(2) > .timeline-line {
-    display: none;
-}
-
-.timeline-deco:not(.hidden):nth-last-child(2) > .timeline-orb {
-    margin-left: 0;
-}
-
 .h-160 {
     height: 40rem;
 }
+
 .h-screen-1\/2 {
     height: 0.5vh;
 }
 
 article {
     font-family: 'CrimsonPro', sans-serif;
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+}
+
+/* md */
+@media (min-width: 768px) {
+    .md\:h-160 {
+        height: 40rem;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+
 }
